@@ -139,7 +139,7 @@ const CarDetailPage = () => {
       {car.drivers && car.drivers.length > 0 && (
         <div>
           <h2 style={{ fontSize: '1.5rem', color: '#FFF', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <User color="var(--racing-red)" size={22} /> Official Pilots
+            <User color="var(--racing-red)" size={22} /> Demo Drivers
           </h2>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
             {car.drivers.map(d => (

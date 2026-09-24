@@ -1,17 +1,18 @@
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
 # Dependencies
 node_modules/
 .pnpm-store/
 
-# Production builds
+# Production builds & artifacts
 dist/
 build/
 *.log
-
-# Environment variables & secrets
-.env
-.env.local
-.env.production
-*.pem
 
 # IDE & OS files
 .DS_Store

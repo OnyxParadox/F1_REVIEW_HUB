@@ -55,7 +55,7 @@ const TeamsPage = () => {
         <span className="badge badge-red" style={{ width: 'fit-content' }}>Formula 1 Grid</span>
         <h1 style={{ fontSize: '2.4rem', color: '#FFF' }}>Constructor Teams</h1>
         <p style={{ color: 'var(--text-muted)', maxWidth: '700px', fontSize: '1rem', lineHeight: '1.6' }}>
-          Explore the official 2026 Formula 1 constructor grid. Review team identities, engineering facilities, power unit suppliers, and driver lineups.
+          Explore the 2026 Demonstration Season constructor grid. Review team identities, engineering facilities, power unit suppliers, and driver lineups.
         </p>
 
         {/* Search */}

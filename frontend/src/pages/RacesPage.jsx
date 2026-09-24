@@ -53,7 +53,7 @@ const RacesPage = () => {
         <span className="badge badge-gold" style={{ width: 'fit-content' }}>2026 World Championship</span>
         <h1 style={{ fontSize: '2.4rem', color: '#FFF' }}>Race Calendar & Results</h1>
         <p style={{ color: 'var(--text-muted)', maxWidth: '700px', fontSize: '1rem', lineHeight: '1.6' }}>
-          Follow all 12 Grand Prix rounds across the global circuit calendar. Access official race classifications, winner podiums, pole positions, and circuit laps.
+          Follow all 12 Grand Prix rounds across the global circuit calendar. Access demo race classifications, winner podiums, pole positions, and circuit laps.
         </p>
 
         {/* Filter Buttons */}

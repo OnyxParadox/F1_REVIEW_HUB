@@ -81,7 +81,7 @@ const RaceDetailPage = () => {
       {isCompleted && race.results && race.results.length > 0 && (
         <div>
           <h2 style={{ fontSize: '1.5rem', color: '#FFF', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Trophy color="var(--gold)" size={22} /> Official Race Classification
+            <Trophy color="var(--gold)" size={22} /> Demo Race Classification
           </h2>
 
           <div className="glass-panel" style={{ overflowX: 'auto', padding: '1rem' }}>

@@ -130,7 +130,7 @@ const TeamDetailPage = () => {
       {team.drivers && team.drivers.length > 0 && (
         <div>
           <h2 style={{ fontSize: '1.5rem', color: '#FFF', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <User color="var(--racing-red)" size={22} /> Official Driver Roster
+            <User color="var(--racing-red)" size={22} /> Demo Driver Roster
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
             {team.drivers.map(driver => (
@@ -144,7 +144,7 @@ const TeamDetailPage = () => {
       {team.car && (
         <div>
           <h2 style={{ fontSize: '1.5rem', color: '#FFF', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Trophy color="var(--gold)" size={22} /> Official Challenger Car
+            <Trophy color="var(--gold)" size={22} /> Demo Challenger Car
           </h2>
           <CarCard car={{ ...team.car, team_name: team.name, color_hex: team.color_hex }} />
         </div>

@@ -72,7 +72,7 @@ const StandingsPage = () => {
         <span className="badge badge-gold" style={{ width: 'fit-content' }}>2026 Season Dashboard</span>
         <h1 style={{ fontSize: '2.4rem', color: '#FFF' }}>Championship Standings</h1>
         <p style={{ color: 'var(--text-muted)', maxWidth: '700px', fontSize: '1rem', lineHeight: '1.6' }}>
-          Official 2026 World Championship point tallies, position changes, win counts, and constructor telemetry standings.
+          2026 Demonstration Season point tallies, position changes, win counts, and constructor telemetry standings.
         </p>
 
         {/* Tab Switcher */}
